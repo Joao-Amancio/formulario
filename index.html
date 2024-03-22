@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE-edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulário Dra Aida Camila</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/script.js" defer></script>
+  </head>
+  <body>
+    <div class="box">
+      <div class="img-box">
+        <img src="./assets/IMG-20240130-WA0008-removebg-preview.png" />
+        <img class="img2" src="./assets/pngtree-golden-butterfly-png-image_5408212-removebg-preview.png" alt="">
+      </div>
+      
+      <div class="form-box">
+        <div id="profile">
+          <!--<img src="./assets/IMG-20230908-WA0100-removebg-preview.png" alt="" />-->
+        </div>
+        <div class="form-box2">
+          <div id="profile2">
+            <img src="./assets/IMG-20230726-WA0039-removebg-preview.png" alt="" />
+          </div>
+        <h2>Dra Aida Camila</h2>
+        <!--<img class="borboleta" src="./assets/pngtree-golden-butterfly-png-image_5408212-removebg-preview.png" alt="">-->
+        <p class="cro">CRO9494</p>
+        <br />
+        <p>Ficha do Paciente</p><br>
+        <p class="anamnese">Após o envio desta ficha, volte a esta pagina e clique <a href="https://joao-amancio.github.io/anamnese/">aqui</a>  para preencher a ficha de anamnese.</p>
+       
+        <form action="https://formsubmit.co/9ec83d3ee01522185f0387f9b90284cd" id="form" method="POST" data-form>
+          <div class="input-group">
+            <label for="nome"> Nome Completo:</label>
+            <input
+              type="text"
+              id="name" name="Nome"
+              placeholder="Digite o seu nome completo" required
+              />
+              
+                        
+          </div>
+
+          <div class="input-group">
+            <label for="email">E-mail:</label>
+            <input
+              type="email"
+              id="email" name="Email"
+              placeholder="Digite o seu email" required
+              
+            />
+            
+          </div>
+
+          <div class="input-group">
+            <label for="telefone">Telefone:</label>
+            <input
+              type="text"
+              id="telefone" name="Telefone"
+              placeholder="(DDD) 9.9999-9999" required
+              
+            />
+            
+          </div>
+
+          <div class="input-group w50">
+            <label for="date">Data de hoje:</label>
+            <input type="date" id="date1" name="Data de hoje" required/>
+            
+          </div>
+
+          <div class="input-group w50">
+            <label for="date">Data de Nascimento:</label>
+            <input type="date" id="date2" name="Data de Nascimento" required />
+            
+          </div>
+
+          <div class="input-group">
+            <label for="genero">Gênero: </label>
+            <select name="Genero" id="genero" required>
+              <option value="">Selecione</option>
+              <option value="masculino">Masculino</option>
+              <option value="feminino">Feminino</option>
+              <option value="outros">Outros</option>
+            </select>
+            
+          </div>
+
+          <div class="input-group w50">
+            <label for="rg">RG:</label>
+            <input type="number" id="rg" name="RG" placeholder="Digite o seu RG" required/>
+            
+            
+          </div>
+
+          <div class="input-group w50">
+            <label for="cpf">Digite seu CPF:</label>
+            <input type="number" id="cpf" name="CPF" placeholder="Digite o seu CPF" required />
+            
+          </div>
+          <div class="input-group">
+            <label for="cep">Logradouro CEP:</label>
+            <input
+              type="text"
+              id="cep" name="CEP"
+              placeholder="Digite o cep do seu endereço" required
+              />
+              
+          </div>
+
+          <div class="input-group">
+            <label for="rua">Rua:</label>
+            <input
+              type="text"
+              id="rua" name="Rua"
+              placeholder="Digite o nome da sua rua" 
+              />
+              
+          </div>
+
+          <div class="input-group">
+            <label for="complemento">Complemento:</label>
+            <input
+              type="text"
+              id="complemento" name="Complemento"
+              placeholder="Número da Casa ou Apt" required
+             
+            />
+            
+
+          <div class="input-group w50">
+            <label for="bairro">Bairro:</label>
+            <input
+              type="text"
+              id="bairro" name="Bairro"
+              placeholder="Digite o Bairro" 
+            />
+            
+          </div>
+
+          <div class="input-group w50">
+            <label for="cidade">Cidade:</label>
+            <input
+              type="text"
+              id="cidade" name="Cidade"
+              placeholder="Digite a Cidade" 
+              />
+              
+          </div>
+          <div class="input-group">
+            <label for="estado">Estado:</label>
+            <input
+              type="text"
+              id="estado" name="Estado"
+              placeholder="Digite o Estado" 
+              />
+              
+          </div>
+          <div class="input-group">
+            <label for="message">Mensagem:</label>
+            <textarea
+          name="Menssagem"
+          id="message"
+          cols="30"
+          rows="10"
+          placeholder="Escreva sua Mensagem"
+        ></textarea
+        >
+          </div>
+
+          
+            <button type="submit" class="button">Enviar</button>
+           <br><br><br>
+          <p class="anamnese">Após o envio desta ficha, volte a esta pagina e clique <a href="https://joao-amancio.github.io/anamnese/">aqui</a> para preencher a ficha de anamnese.</p>
+          <!--<div class="input-group">
+            <button id="reset" type="reset">Apagar</button>
+          </div>-->
+        </form>
+      </div>
+    </div>
+    <script>
+      document.getElementById("cep").addEventListener("keyup", function () {
+        var cep = this.value.replace(/\D/g, "");
+
+        if (cep.length === 8) {
+          var xhr = new XMLHttpRequest();
+          xhr.open("GET", "https://viacep.com.br/ws/" + cep + "/json/");
+          xhr.onreadystatechange = function () {
+            if (xhr.readyState === 4 && xhr.status === 200) {
+              var response = JSON.parse(xhr.responseText);
+
+              document.getElementById("rua").value = response.logradouro;
+              document.getElementById("bairro").value = response.bairro;
+              document.getElementById("cidade").value = response.localidade;
+              document.getElementById("estado").value = response.uf;
+            }
+          };
+          xhr.send();
+        }
+      });
+    </script>
+    <script
+    type="module"
+    src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+  ></script>
+  <script
+    nomodule
+    src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+  ></script>
+  <script>
+    function cpf(cpf){
+    cpf = cpf.replace(/\D/g, '');
+    if(cpf.toString().length != 11 || /^(\d)\1{10}$/.test(cpf)) return false;
+    var result = true;
+    [9,10].forEach(function(j){
+        var soma = 0, r;
+        cpf.split(/(?=)/).splice(0,j).forEach(function(e, i){
+            soma += parseInt(e) * ((j+2)-(i+1));
+        });
+        r = soma % 11;
+        r = (r <2)?0:11-r;
+        if(r != cpf.substring(j, j+1)) result = false;
+    });
+    return result;
+}
+
+console.log('11111111111', cpf('11111111111'));
+console.log('82312321312', cpf('82312321312'));
+console.log('825.566.405-02', cpf('825.566.405-02'));
+console.log('875.189.681-85', cpf('875.189.681-85'));
+console.log('875.189.681-86', cpf('875.189.681-86'));
+console.log('640.422.216-70', cpf('640.422.216-70'));
+  </script>
+
+
+  </body>
+</html>
