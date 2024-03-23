@@ -40,7 +40,12 @@ Esse projeto está sob a licença MIT.
 ---
 
 Feito com ♥ by Amancio Jr
-<p align="left">
+
+---
+<p align="center">
+  <b>Contate-me</b>
+</p>
+<p align="center">
   <a href="https://www.linkedin.com/in/jr-am%C3%A2ncio-66b6312a6/" title="LinkedIn">
   <img src="https://img.shields.io/badge/-Linkedin-0e76a8?style=flat-square&logo=Linkedin&logoColor=white&link=LINK-DO-SEU-LINKEDIN" alt="LinkedIn"/></a>
   <a href="https://wa.me/5581996174799" title="WhatsApp">
