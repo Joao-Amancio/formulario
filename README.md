@@ -26,11 +26,11 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - Figura
 - Animações
 
-## 💻 Projeto
+## 💻 Formulário 
 
 O Formulário de cadastro responsivo é um agregador de campos. O mesmo serve para uso tanto no desktop como em aparelhos mobile, ajustando automaticamente de acordo com o tamanho da tela do aparelho.
 
-- [Acesse o projeto finalizado, online](https://joao-amancio.github.io/formulario/)
+- [Acesse o Formulário finalizado, online](https://joao-amancio.github.io/formulario/)
 
 ## :memo: Licença
 
