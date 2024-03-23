@@ -14,7 +14,7 @@
 <br>
 
 <p align="center">
-  <img alt="projeto DevLinks" src="https://github.com/Joao-Amancio/projeto/assets/150720801/a05b95dd-30b6-49f4-89c9-2759e82d6c60"100%">
+  <img alt="projeto DevLinks" src="https://github.com/Joao-Amancio/formulario/assets/150720801/31c3e333-12c8-47ca-abe6-7d38bcac6c7d"100%">
 </p>
 
 ## 🚀 Tecnologias
